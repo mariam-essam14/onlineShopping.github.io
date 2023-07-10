@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css"> <!---ربط html & css-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700&display=swap" rel="stylesheet"> <!--font-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--star-->
+
+</head>
+<body>
+<div class="header">
+<div class="part">
+  <div class="navbar">
+    <div class="logo">
+       <a href="index.html" ><img src="image project/Branding.png"width="125px"></a>
+    </div>
+     <nav> <!--يمين الكلام اللي على جنب ال-->
+         <ul id="UpperBarItems">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="product.html">Products</a></li>
+             <li><a href="">About Us</a></li>
+             <li><a href="">Contact</a></li>
+             <li><a href="account.html">My Account</a></li>
+             
+         </ul>
+     </nav>
+     <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+     <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" >
+
+    </div>
+    <div class="row"> <!--جزء الصفحه اللي فوق-->
+        <div class="col-2">
+            <h1>Give Your WorKout<br> A New Style !</h1>
+            <p> Success isn't always about greatness. It's about consistency. Consistent <br> hard work gains Success. Greatness will come.</p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+             <img src="image project/Branding.png">
+        </div>
+
+    </div>
+    </div>
+</div>
+</div>
+<!------------featured categories--------->
+<!--الجزي اللي في نص 3 صور-->
+<div class="categories">
+    <div class="small-part">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/category-1.jpg">
+            </div>
+            <div class="col-3"> 
+                <img src="images/category-2.jpg">
+           </div>
+            <div class="col-3">
+              <img src="images/category-3.jpg">
+            </div>
+            
+        </div>  
+    </div>
+</div>
+
+<!------------ Top Selling Items--------->
+ <!--المنتجات-->
+<div class="small-part">
+    <h2 class="title"> Top Selling Items</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="product-data.html"><img src="page1/shirt2.png" ></a>
+            <a href="product-data.html"><h4>Mushroom And Butterfly Print Short Sleeve Tee</h4></a>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>EGP50.00</p>
+        </div>    
+        <div class="col-4">
+            <img src="page1/shirt5.png" >
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>EGP30.00</p>
+        </div>    
+        <div class="col-4">
+            <img src="page1/shirt6.png" >
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o" ></i>
+            </div>
+            <p>EGP50.00</p>
+        </div>    
+        <div class="col-4">
+            <img src="page1/shirt7.png" >
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>EGP250.00</p>
+        </div>    
+    </div>
+
+    <h2 class="title">New arrivals</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="page1/dress2.png" >
+            <h4>Allover Print Bishop Sleeve Ruffle Hem Belted  Dress</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>EGP600.00</p>
+        </div>    
+        <div class="col-4">
+            <img src="page1/dress3.png" >
+            <h4>Flounce Sleeve Floral Shirt Dress</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>EGP350.00</p>
+        </div>    
+        <div class="col-4">
+            <img src="page1/jump1.png" >
+            <h4>Knot Strap Pocket Front Overall Shorts</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>EGP200.00</p>
+        </div>    
+        <div class="col-4">
+            <img src="page1/jump2.png" >
+            <h4>Layered Pleated Sleeve Belted Jumpsuit</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>EGP150.00</p>
+        </div>    
+        <div class="col-4">
+            <img src="page3/top9.png" >
+            <h4>Men Contrast Trim Polo Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>EGP80.00</p>
+        </div>    
+        <div class="col-4">
+            <img src="page3/top10.png" >
+            <h4>Men Striped Color Block Polo Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>EGP60.00</p>
+        </div>    
+        <div class="col-4">
+            <img src="page3/top12.png" >
+            <h4>Men Striped Half Zip Knit Top</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o" ></i>
+            </div>
+            <p>EGP550.00</p>
+        </div>    
+        <div class="col-4">
+            <img src="page3/top13.png" >
+            <h4>Men Color Block Zip Half Placket Knit Top</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>EGP100.00</p>
+        </div>    
+    </div>
+
+</div>
+<!------advertisement اعلان------>
+<div class="advertisement">
+    <div class="small-part">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/exclusive.png" class="advertisement-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusive Available on Redstore</p>
+                <h1> Smart Band 4</h1>
+                <small>The Mi Smart Band 4 features a 39.9% Larger (than Mi Band 3) AMOLED color full-touch display with adjustable brightness,so everything is clear as can be</small>
+                <br>
+                <a href="" class="btn">Buy Now &#8594; </a><!--&#8594 (->)ده كود رمز السهم من النت -------->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--testimonial شهاده--->
+<div class="testimonial">
+    <div class="small-part">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left" ></i>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <img src="images/user-1.png" >
+                <h3>Sean Parker</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left" ></i>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <img src="images/user-2.png" >
+                <h3>Mike Smith</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left" ></i>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <img src="images/user-3.png" >
+                <h3>Mabel Joe</h3>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!---------brands-------------->
+<div class="brands">
+    <div class="small-part">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/2560px-Zara_Logo_2.svg.png" >
+            </div>
+            <div class="col-5">
+                <img src="images/New Max Logo- Eng With Outline_1.png" >
+            </div>
+            <div class="col-5">
+                <img src="images/Shinee_logo.png" >
+            </div>
+            <div class="col-5">
+                <img src="images/1024px-H&M-Logo.svg.png" >
+            </div>
+            <div class="col-5">
+                <img src="images/defacto.png" >
+            </div>
+
+        </div>
+    </div>
+</div>
+<!----------end-page-bar-------->>
+<div class="end-page-bar">
+    <div class="part">
+        <div class="row">
+            <div class="end-page-bar-col-1">
+                <h3> Download Our App</h3>
+                <p>Dounload App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" >
+                    <img src="images/app-store.png" >
+                </div>
+            </div>
+            <div class="end-page-bar-col-2">
+               <img src="images/Branding.png" >
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Benwfits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="end-page-bar-col-3">
+                <h3> Useful Links</h3>
+                <ul>
+                    <li>coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="end-page-bar-col-4">
+                <h3> Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2020 - Easy Tutorials </p>
+    </div>
+</div>
+
+
+<!---js for toggle menu------>
+<script>
+    var UpperBarItems = document.getElementById("UpperBarItems");
+    UpperBarItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(UpperBarItems.style.maxHeight=="0px")
+        {
+            UpperBarItems.style.maxHeight="200px"
+        }
+        else
+        {
+            UpperBarItems.style.maxHeight="0px"
+        }
+    }
+</script>
+
+
+</body>
+</html>

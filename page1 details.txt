@@ -1,0 +1,51 @@
+img dress1:All Over Print Shirred Ruffle Hem Dress
+Color:	Multicolor
+Style:	Boho
+Details:	Ruffle Hem, Shirred
+
+img dress2:Allover Print Bishop Sleeve Ruffle Hem Belted Dress
+Color:	Blue and White
+Style:	Modest
+Pattern Type:	All Over Print
+Details:	Ruffle Hem, Belted
+
+
+img dress3:Flounce Sleeve Floral Shirt Dress
+Color:	Blue and White
+Style:	Boho
+Pattern Type:	Floral
+Type:	Shirt
+
+shirt1:Mushroom And Butterfly Print Short Sleeve Tee
+Color:	Khaki
+Style:	Casual
+Pattern Type:	Animal, Plants
+Neckline:	Round Neck
+
+shirt2:Letter And Tropical Print Tee
+Color:	Dark Green
+Style:	Casual
+Pattern Type:	Letter, Tropical
+Neckline:	Round Neck
+
+shirt3:Feather & Butterfly Print Tee
+Color:	Maroon
+Style:	Casual
+Pattern Type:	Butterfly, Tribal
+Neckline:	Round Neck
+
+shirt4:Letter Graphic Drop Shoulder Tee
+
+shirt5:Letter Graphic Short Sleeve Tee
+
+shirt6:Slogan And Butterfly Print Tee
+shirt7:Butterfly Print Short Sleeve Tee
+
+jump1:SHEIN Knot Strap Pocket Front Overall Shorts
+jump2:SHEIN Layered Pleated Sleeve Belted Jumpsuit
+jump3:Solid Dual Pocket Suspender Jumpsuit
+
+
+toka1:Simple Plain Hair Claw
+
+shose1:Knit Detail Lace-up Front Running Shoes

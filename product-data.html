@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css"> <!---ربط html & css-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700&display=swap" rel="stylesheet"> <!--font-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!--star-->
+
+</head>
+<body>
+
+<div class="part">
+<div class="navbar">
+   <div class="logo">
+        <img src="image project/Branding.png"width="125px">
+    </div>
+     <nav> <!--الكلام اللي على جنب الشمال-->
+         <ul id="UpperBarItems">
+             <li><a href="index.html">Home</a></li>
+             <li><a href="product.html">Products</a></li>
+             <li><a href="">About Us</a></li>
+             <li><a href="">Contact</a></li>
+             <li><a href="account.html">My Account</a></li>
+             
+         </ul>
+     </nav>
+     <img src="images/cart.png" width="30px" height="30px">
+     <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" >
+    </div>
+</div>
+</div>
+
+
+<!-------single product details-------->
+
+<div class="small-part single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="page1/shirt2.png" width="100%"  id="productImg">
+
+            <div class="small-img-row">
+                <div class="small-img-col">
+                  <img src="page1/shirt2-1.png" width="100%" class="small-img">  
+                </div>
+                <div class="small-img-col">
+                    <img src="page1/shirt2-2.png" width="100%"class="small-img">  
+                  </div>
+                  <div class="small-img-col">
+                    <img src="page1/shirt2-3.png" width="100%"class="small-img">  
+                  </div>
+                  <div class="small-img-col">
+                    <img src="page1/shirt2-4.png" width="100%"class="small-img">  
+                  </div>
+
+            </div>
+
+        </div>
+        <div class="col-2">
+            <p>Home / Dress</p>
+            <h1>All Over Print Shirred Ruffle Hem Dress</h1>
+            <h4>EGP100</h4>
+            <select >
+                <option >Select Size</option>
+                <option >XXL</option>
+                <option >XL</option>
+                <option >Large</option>
+                <option >Medium</option>
+                <option >Small</option>
+                
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn"> Add To Cart</a>
+            <h3>Product Details <i class="fa fa-indent" ></i></h3>
+            <br>
+            <p>Color: Multicolor
+                <br>
+                Style: Boho
+                <br>
+                Details: Ruffle Hem, Shirred
+            </p>
+
+        </div>
+    </div>
+</div>
+
+<!----title-------->
+ <div class="small-part">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+
+    </div>
+ </div>
+<!-----products------------>
+<div class="small-part">
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-9.jpg" >
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>EGP50.00</p>
+        </div>    
+        <div class="col-4">
+            <img src="images/product-10.jpg" >
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>EGP50.00</p>
+        </div>    
+        <div class="col-4">
+            <img src="images/product-11.jpg" >
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o" ></i>
+            </div>
+            <p>EGP50.00</p>
+        </div>    
+        <div class="col-4">
+            <img src="images/product-12.jpg" >
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-o" ></i>
+            </div>
+            <p>EGP50.00</p>
+        </div>
+    </div>    
+</div>
+<!----------end-page-bar--------->>
+<div class="end-page-bar">
+    <div class="part">
+        <div class="row">
+            <div class="end-page-bar-col-1">
+                <h3> Download Our App</h3>
+                <p>Dounload App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" >
+                    <img src="images/app-store.png" >
+                </div>
+            </div>
+            <div class="end-page-bar-col-2">
+               <img src="images/logo-white.png" >
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Benwfits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="end-page-bar-col-3">
+                <h3> Useful Links</h3>
+                <ul>
+                    <li>coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="end-page-bar-col-4">
+                <h3> Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2020 - Easy Tutorials </p>
+    </div>
+</div>
+
+
+<!---js for toggle menu------>
+<script>
+    var UpperBarItems = document.getElementById("UpperBarItems");
+    UpperBarItems.style.maxHeight="0px";
+    function menutoggle(){
+        if(UpperBarItems.style.maxHeight=="0px")
+        {
+            UpperBarItems.style.maxHeight="200px"
+        }
+        else
+        {
+            UpperBarItems.style.maxHeight="0px"
+        }
+    }
+</script>
+<!------- js for product gallery-------->
+<script>
+  var productImg = document.getElementById("productImg");
+  var smallImg = document.getElementsByClassName("small-img");
+    
+  smallImg[0].onclick=function()
+  {
+    productImg.src=smallImg[0].src;
+  }
+  smallImg[1].onclick=function()
+  {
+    productImg.src=smallImg[1].src;
+  }
+  smallImg[2].onclick=function()
+  {
+    productImg.src=smallImg[2].src;
+  }
+
+  smallImg[3].onclick=function()
+  {
+    productImg.src=smallImg[3].src;
+  }
+
+</script>
+
+</body>
+</html>
